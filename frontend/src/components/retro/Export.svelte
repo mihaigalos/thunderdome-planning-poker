@@ -56,7 +56,7 @@
         </div>
         <br/>
         <div class="mb-4">
-            <h2 class="text-3xl font-rajdhani">{$_('actionItems')}</h2>
+            <h2 class="text-3xl font-rajdhani">{$_('actionItems_markdown')}</h2>
                 {#each retro.actionItems as item (item.id)}
                 * {item.content} <br/> 
                 {/each}
